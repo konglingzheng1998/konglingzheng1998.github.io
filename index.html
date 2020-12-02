@@ -164,15 +164,14 @@
 <h2 id="一、安装Node-js和-Git"><a href="#一、安装Node-js和-Git" class="headerlink" title="一、安装Node.js和 Git"></a>一、安装Node.js和 Git</h2><ul>
 <li><p>Node.js网站：<a href="%5BNode.js%5D(https://nodejs.org/en/)"> <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.js</a> </a></p>
 <p>点击框选内容进行下载安装，一直next即可，下载完成后包括两个组件Node.js本身和npm包管理器。</p>
-<img src="F:\博客平台\图片存放\nodejs下载.png" alt="Node.js下载" style="zoom: 50%;" />
+<img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source\_posts\基于Hexo搭建自己的博客平台\nodejs下载.png" style="zoom:50%;">
 </li>
 <li><p>Git网站：[ <a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git - Downloading Package (git-scm.com)</a> ]( <a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git - Downloading Package (git-scm.com)</a> )</p>
 <p>点击框选内容选择匹配位数进行下载，具体安装过程参照[该详解]( <a target="_blank" rel="noopener" href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">Windows系统Git安装教程（详解Git安装过程） - 学为所用 - 博客园 (cnblogs.com)</a> )。</p>
-<img src="F:\博客平台\图片存放\git下载.png" alt="Git下载" style="zoom:50%;" />
+<img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source\_posts\基于Hexo搭建自己的博客平台\git下载.png" style="zoom:50%;">
 
 <p>在桌面点击右键看到Git Bush 终端命令控制台即为安装成功。</p>
-<img src="F:\博客平台\图片存放\git bush.png" alt="Git控制台的打开" style="zoom: 67%;" />
-
+<p>![](F:\博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\git bush.png)</p>
 </li>
 </ul>
 <hr>
@@ -182,28 +181,25 @@
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
-<img src="F:\博客平台\图片存放\node -v.png" alt="安装成功"  />
+<p>![](F:\博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\node -v.png)</p>
 </li>
 <li><p>由于国内镜像源很慢，所以利用npm安装一个cnpm来提速。输入以下一行命令行：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
-<img src="F:\博客平台\图片存放\cnpm.png" style="zoom:80%;" />
-
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\cnpm.png"></p>
 <p>执行完后输入以下一行命令检查是否安装成功，无报错即安装成功。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm -v</span><br></pre></td></tr></table></figure>
 
-<img src="F:\博客平台\图片存放\cnpm -v.png" alt="安装成功" style="zoom:80%;" />
+<p>![](F:\博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\cnpm -v.png)</p>
 </li>
 <li><p>安装完成后就可以全局安装Hexo，输入以下一行命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
-<img src="F:\博客平台\图片存放\hexo.png" style="zoom:80%;" />
-
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\hexo.png"></p>
 <p>执行完后输入以下一行命令检查是否安装成功，若出现版本号即为安装成功。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 
-<img src="F:\博客平台\图片存放\hexo -v.png" alt="安装完成"  />
-
+<p>![](F:\博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\hexo -v.png)</p>
 </li>
 </ul>
 <hr>
@@ -211,21 +207,21 @@
 <li><p>在该路径下通过以下命令建立一个新文件夹并进入（我起名为klz）。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir klz</span><br></pre></td></tr></table></figure>
 
-<p><img src="F:\博客平台\图片存放\mkdiir.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\mkdiir.png"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd klz&#x2F;</span><br></pre></td></tr></table></figure>
 
-<p><img src="F:\博客平台\图片存放\cd.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\cd.png"></p>
 <p>输入以下命令查看当前路径是否在新建的文件夹内。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pwd</span><br></pre></td></tr></table></figure>
 
-<p><img src="F:\博客平台\图片存放\pwd.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\pwd.png"></p>
 </li>
 <li><p>执行以下命令初始化一个博客（时间可能久一些）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
 
-<p><img src="F:\博客平台\图片存放\init.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\init.png"></p>
 <p>最后提示Start blogging with Hexo！即为安装完整，该文件夹下会有以下文件：</p>
-<p><img src="F:\博客平台\图片存放\文件.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\文件.png"></p>
 </li>
 </ul>
 <h5 id="注：搭建失败即可删除该文件夹重新进行搭建"><a href="#注：搭建失败即可删除该文件夹重新进行搭建" class="headerlink" title="注：搭建失败即可删除该文件夹重新进行搭建"></a>注：搭建失败即可删除该文件夹重新进行搭建</h5><hr>
@@ -234,9 +230,9 @@
 <li><p>执行以下命令启动博客</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p><img src="F:\博客平台\图片存放\hexos.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\hexos.png"></p>
 <p>完成后我们可以在浏览器输入localhost:4000来启动博客（打不开多刷新几遍）。</p>
-<p><img src="F:\博客平台\图片存放\图片1.png"></p>
+<p><img src="/2020/12/02/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0/博客平台\blog\l\source_posts\基于Hexo搭建自己的博客平台\图片1.png"></p>
 <p>至此我们的本地博客便搭建完成。</p>
 </li>
 </ul>
